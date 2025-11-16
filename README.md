@@ -69,7 +69,8 @@ RegisterNumber:25016067
 <img width="1919" height="1079" alt="Screenshot 2025-11-16 110258" src="https://github.com/user-attachments/assets/5acae4c6-4cb6-4f5d-95dd-c3acfcaf96a7" />
 
 **Output/TIMING Waveform**
-![Uploading Screenshot 2025-11-16 110625.png…]()
+<img width="1919" height="1069" alt="Screenshot 2025-11-16 110625" src="https://github.com/user-attachments/assets/b41bd0e4-7c8d-49c6-906a-22c43f91bc7a" />
+
 
 **Result:**
 Thus, the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
