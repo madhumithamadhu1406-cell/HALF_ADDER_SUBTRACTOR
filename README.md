@@ -93,4 +93,4 @@ Half subtractor
 
 
 **Result:**
-Thus, the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
+Thus, the Half Adder and Half Subtractor circuits are designed and the truth tables is verified using Quartus software.
