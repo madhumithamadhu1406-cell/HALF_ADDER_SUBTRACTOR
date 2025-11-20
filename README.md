@@ -49,6 +49,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
+Half adder
 module half_adder (
     input  wire a, b,     // Inputs
     output wire sum,      // Sum output
@@ -60,16 +61,35 @@ module half_adder (
     assign carry = a & b;   // AND for carry
 
 endmodule
+Half subtractor
+module half_subtractor (
+    input  wire a, b,         // Inputs
+    output wire diff, borrow  // Outputs
+);
+
+    // Logic equations
+    assign diff   = a ^ b;     // XOR for difference
+    assign borrow = ~a & b;    // Borrow when a < b
+
+endmodule
+
 
 
 Developed by:Madhumitha V
 RegisterNumber:25016067
 
 **RTL Schematic**
+Half adder
 <img width="1919" height="1079" alt="Screenshot 2025-11-16 110258" src="https://github.com/user-attachments/assets/5acae4c6-4cb6-4f5d-95dd-c3acfcaf96a7" />
+Half subtractor
+<img width="1919" height="1070" alt="Screenshot 2025-11-20 201918" src="https://github.com/user-attachments/assets/dd3d3718-6556-4b09-8354-7a6192924c37" />
 
 **Output/TIMING Waveform**
+Half adder
 <img width="1919" height="1069" alt="Screenshot 2025-11-16 110625" src="https://github.com/user-attachments/assets/b41bd0e4-7c8d-49c6-906a-22c43f91bc7a" />
+Half subtractor
+<img width="1919" height="1078" alt="Screenshot 2025-11-20 202113" src="https://github.com/user-attachments/assets/04b44fb1-cc43-40f8-be66-61a0b3e642c1" />
+
 
 
 **Result:**
